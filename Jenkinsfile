@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    DOCKER_USER = 'YOUR_DOCKERHUB_USERNAME'
+    DOCKER_USER = 'anaghaaaaaa'
     IMAGE       = "${DOCKER_USER}/webapp"
     TAG         = "${BUILD_NUMBER}"
   }
